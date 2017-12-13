@@ -7,19 +7,31 @@
 //
 
 import UIKit
+import KSProgressBar
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var progressView: KSProgressView!
+    
+    @IBOutlet weak var slider: UISlider!
+    
+    @IBAction func sliderValueChanged(_ slider: UISlider) {
+        
+        self.progressView.progress = UInt(slider.value)
+        
+    }
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
+        
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
+    }
 
 }
 
