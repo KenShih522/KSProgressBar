@@ -4,4 +4,4 @@ KSProgressBar is a quick demo which demonstrates how to use IBDesignable and IBI
 
 ## Preview
 
-![preview](https://imgur.com/a/0geHb)
+![preview](https://i.imgur.com/PMpBR74.gif)
